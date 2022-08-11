@@ -1,0 +1,49 @@
+.App {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App #quote-box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 60%;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .App .cajaBoton {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px, 0px, 10px, 0px;
+  }
+  .App #text {
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+  .App #author {
+    text-align: end;
+    padding-bottom: 10px;
+    padding-right: 20px;
+  }
+  .App #redes {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .App #botonRed {
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /*# sourceMappingURL=Quotebox.css.map */
+  
